@@ -37903,7 +37903,7 @@ var render = function() {
                         staticClass: "nav-link",
                         attrs: { to: { path: "/acerca" } }
                       },
-                      [_vm._v("¿Quién soy?")]
+                      [_vm._v("¿Qui")]
                     )
                   ],
                   1

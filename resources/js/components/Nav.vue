@@ -13,7 +13,7 @@
 
             <ul class="nav nav-pills">
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/'}">Inicio</router-link></li>
-                <li class="nav-item"><router-link class="nav-link" :to="{ path:'/acerca'}">¿Quién soy?</router-link></li>
+                <li class="nav-item"><router-link class="nav-link" :to="{ path:'/acerca'}">¿Qui</router-link></li>
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/experiencias'}">Experiencias</router-link></li>
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/portafolio'}">Portafolio</router-link></li>
             </ul>
