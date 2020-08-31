@@ -1,0 +1,74 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.h-screen{
+    height: 100vh;
+}
+
+.social-menu ul{
+    //position: absolute;
+    //top: 70%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    //left: 50%;
+    padding: 0;
+    //margin: 0;
+    //transform: translate(0%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 45px;
+    transition: .6s;
+    color: black;
+}
+
+.social-menu ul li .fa:hover{
+    color: #3490dc;
+}
+
+/*.social-menu ul li router-link {
+    position: relative;
+    display: bloack;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3490dc;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li router-link:hover{
+    transform: translate(0,-10px);
+}*/
+
+.social-menu ul li a {
+    position: relative;
+    display: bloack;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0,-10px);
+}
