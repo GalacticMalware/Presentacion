@@ -5,7 +5,7 @@
 
         <h1 class="display-4 text-primary">Hacking Ético</h1>
         <p class="lead text-secondary  ">
-            Fecha: Agosto - 2019 / Diciembre - 2019
+            Experiencia: 6 meses
         </p>
         <p class="lead text-sencondary ">
             Prácticas escolares y toma de curso con PLATZI en línea (Hacking Ético).   
@@ -24,7 +24,7 @@
                 Prevencion de ataques DDOS / DOS.
             </li>
             <li class="lead text-sencondary ">
-                Reconfiguracion de puertos DNS.
+                Reconfiguracion de puertos.
             </li>
             <li class="lead text-sencondary ">
                 Identificación de IDS/IPS.

@@ -1,14 +1,17 @@
 <template>
   
     <div class="row">
+      
       <div class="col-12 col-lg-6 py-4">
 
-        <h1 class="display-4 text-primary  ">Administrador de servidores Linux</h1>
+        <h1 class="display-4 text-primary center ">Desarrollador en JAVA y C</h1>
         <p class="lead text-secondary  ">
-            Experiencia: 6 meses
+            Experiencia: 2 año (2016-2018)
+            <br />
+            Actualmente programado en JAVA
         </p>
         <p class="lead text-sencondary ">
-            Prácticas escolares y toma de curso con PLATZI en línea (Administrador de servidores Linux).   
+            Prácticas escolares.             
         </p>
         
         <div class="row">
@@ -18,51 +21,51 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                DHCP.
+                Desarrollo de aplicaciones de escritorio.
             </li>
             <li class="lead text-sencondary ">
-                DNS.
+                Generacion de API'S.
             </li>
             <li class="lead text-sencondary ">
-                Servicio de correos.
+                Estructura de datos.
             </li>
             <li class="lead text-sencondary ">
-                Detección de intrusos.
+                Conexciones a base de datos.
             </li>
             <li class="lead text-sencondary ">
-                Alojamiento web.
+                POO.
             </li>
             <li class="lead text-sencondary ">
-                Almacenamiento de base de datos.
+                Estructura de interfaz gráfica.
+            </li>
+            <li class="lead text-sencondary ">
+                Desarrollo de codigo a base electronico (Arduino).
             </li>
         </ul>
         </div>
 
         <div class="col-6">
         <p class="lead text-sencondary ">
-        Tecnologías:
+        Tecnologias:
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                Centos Os.
+                Java.
             </li>
             <li class="lead text-sencondary ">
-                Squirrel Mail.
+                C.
             </li>
             <li class="lead text-sencondary ">
-                Php.
+                Arduino IDE.
             </li>
             <li class="lead text-sencondary ">
-                Mysql.
+                Eclipce.
             </li>
             <li class="lead text-sencondary ">
-                Apache.
+                Apache Netbeans.
             </li>
             <li class="lead text-sencondary ">
-                Nmap.
-            </li>
-            <li class="lead text-sencondary ">
-                Snort.
+                Dev-c.
             </li>
         </ul>
         </div>
@@ -71,9 +74,8 @@
 
       </div>
       <div class="col-12 col-lg-6  row">
-        <img class="img-fluid bm-4" src="/img/server.svg" alt="Quien soy" />
+        <img class="img-fluid bm-4" src="/img/javac.svg" alt="Quien soy" />
       </div>
-      
     </div>
   
 </template>

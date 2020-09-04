@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import Acerca from "./components/Complementos/Acerca";
 import Inicio from "./components/Inicio"
 import Experiencias from './components/Complementos/Experiencias'
+import Portafolio from './components/Complementos/Portafolio/Portafolio'
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ export default new Router({
         {
             path: "*",
             redirect: "/"
+        },
+        {
+            path: '/portafolio',
+            name: 'portafolio',
+            component: Portafolio
         },
         {
             path: '/',

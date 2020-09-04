@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col-12 col-lg-6 py-4">
 
-        <h1 class="display-4 text-primary  ">Administrador de servidores Linux</h1>
+        <h1 class="display-4 text-primary">Desarrollo de aplicaciones móviles android</h1>
         <p class="lead text-secondary  ">
-            Experiencia: 6 meses
+            Experiencia: 1 año  (2017-2018)
         </p>
         <p class="lead text-sencondary ">
-            Prácticas escolares y toma de curso con PLATZI en línea (Administrador de servidores Linux).   
+            Prácticas escolares.   
         </p>
         
         <div class="row">
@@ -18,22 +18,22 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                DHCP.
+                Estrcutura de interface gráfica.
             </li>
             <li class="lead text-sencondary ">
-                DNS.
+                Conexiones a base de datos.
             </li>
             <li class="lead text-sencondary ">
-                Servicio de correos.
+                Metodologias ágiles.
             </li>
             <li class="lead text-sencondary ">
-                Detección de intrusos.
+                Geolocalización.
             </li>
             <li class="lead text-sencondary ">
-                Alojamiento web.
+                Seguridad.
             </li>
             <li class="lead text-sencondary ">
-                Almacenamiento de base de datos.
+                Animación gráfica.
             </li>
         </ul>
         </div>
@@ -44,25 +44,10 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                Centos Os.
+                Java.
             </li>
             <li class="lead text-sencondary ">
-                Squirrel Mail.
-            </li>
-            <li class="lead text-sencondary ">
-                Php.
-            </li>
-            <li class="lead text-sencondary ">
-                Mysql.
-            </li>
-            <li class="lead text-sencondary ">
-                Apache.
-            </li>
-            <li class="lead text-sencondary ">
-                Nmap.
-            </li>
-            <li class="lead text-sencondary ">
-                Snort.
+                Android studio.
             </li>
         </ul>
         </div>
@@ -71,9 +56,8 @@
 
       </div>
       <div class="col-12 col-lg-6  row">
-        <img class="img-fluid bm-4" src="/img/server.svg" alt="Quien soy" />
+        <img class="img-fluid bm-4" src="/img/android.svg" alt="Quien soy" />
       </div>
-      
     </div>
   
 </template>

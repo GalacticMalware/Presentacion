@@ -3,12 +3,12 @@
     <div class="row">
       <div class="col-12 col-lg-6 py-4">
 
-        <h1 class="display-4 text-primary  ">Administrador de servidores Linux</h1>
+        <h1 class="display-4 text-primary">Infraestructura en redes</h1>
         <p class="lead text-secondary  ">
-            Experiencia: 6 meses
+            Experiencia: 1 año  (2018-2019)
         </p>
         <p class="lead text-sencondary ">
-            Prácticas escolares y toma de curso con PLATZI en línea (Administrador de servidores Linux).   
+            Prácticas escolares y toma de curso con CCNA (CISCO).   
         </p>
         
         <div class="row">
@@ -18,22 +18,25 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                DHCP.
+                Infraestructura en topologia.
             </li>
             <li class="lead text-sencondary ">
-                DNS.
+                Configuraciones de servidores.
             </li>
             <li class="lead text-sencondary ">
-                Servicio de correos.
+                Configuraciones en switches.
             </li>
             <li class="lead text-sencondary ">
-                Detección de intrusos.
+                Configuraciones RIP y RIPV2.
             </li>
             <li class="lead text-sencondary ">
-                Alojamiento web.
+                Configuraciones redes LAN.
             </li>
             <li class="lead text-sencondary ">
-                Almacenamiento de base de datos.
+                Configuraciones de lista de acceso.
+            </li>
+            <li class="lead text-sencondary ">
+                Configuraciones DHCP.
             </li>
         </ul>
         </div>
@@ -44,25 +47,16 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                Centos Os.
+                Linux serve.
             </li>
             <li class="lead text-sencondary ">
-                Squirrel Mail.
+                Windows.
             </li>
             <li class="lead text-sencondary ">
-                Php.
+                Packet Trace.
             </li>
             <li class="lead text-sencondary ">
-                Mysql.
-            </li>
-            <li class="lead text-sencondary ">
-                Apache.
-            </li>
-            <li class="lead text-sencondary ">
-                Nmap.
-            </li>
-            <li class="lead text-sencondary ">
-                Snort.
+                Netacad.
             </li>
         </ul>
         </div>
@@ -71,9 +65,8 @@
 
       </div>
       <div class="col-12 col-lg-6  row">
-        <img class="img-fluid bm-4" src="/img/server.svg" alt="Quien soy" />
+        <img class="img-fluid bm-4" src="/img/redes.svg" alt="Quien soy" />
       </div>
-      
     </div>
   
 </template>
