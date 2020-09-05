@@ -39,7 +39,7 @@
                 Estructura de interfaz gráfica.
             </li>
             <li class="lead text-sencondary ">
-                Desarrollo de codigo a base electronico (Arduino).
+                Desarrollo de codigo a base electronico (Arduino, TexasInstrument).
             </li>
         </ul>
         </div>
@@ -73,7 +73,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-6  row">
+      <div class="col-12 col-lg-6  row d-none d-lg-block d-xl-block">
         <img class="img-fluid bm-4" src="/img/javac.svg" alt="Quien soy" />
       </div>
     </div>

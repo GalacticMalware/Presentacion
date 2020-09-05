@@ -35,13 +35,13 @@
                 Implementacion de una sola pagina con VUEJS.
             </li>
             <li class="lead text-sencondary ">
-                Configuracion de generacion de PDF.
+                Configuración de generacion de PDF.
             </li>
             <li class="lead text-sencondary ">
                 Servicio de envio de email.
             </li>
             <li class="lead text-sencondary ">
-                Configuracion de Web Services.
+                Configuración de Web Services.
             </li>
             <li class="lead text-sencondary ">
                 Test en el funcionamiento del sistema y contra ataques de XSS.
@@ -79,7 +79,7 @@
                 Bootstrap.
             </li>
             <li class="lead text-sencondary ">
-                Web Services.
+                Service Worker.
             </li>
             <li class="lead text-sencondary ">
                 Mailtrap.
@@ -90,7 +90,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-6  row">
+      <div class="col-12 col-lg-6  row d-none d-lg-block d-xl-block">
         <img class="img-fluid bm-4" src="/img/aplicationWeb.svg" alt="Quien soy" />
         <img class="img-fluid bm-4" src="/img/laravelvue.svg" alt="Quien soy" />
       </div>

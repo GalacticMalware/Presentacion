@@ -70,7 +70,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-6  row">
+      <div class="col-12 col-lg-6  row d-none d-lg-block d-xl-block">
         <img class="img-fluid bm-4" src="/img/server.svg" alt="Quien soy" />
       </div>
       

@@ -18,7 +18,7 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                Estrcutura de interface gráfica.
+                Estrcutura de interfaz gráfica.
             </li>
             <li class="lead text-sencondary ">
                 Conexiones a base de datos.
@@ -55,7 +55,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-6  row">
+      <div class="col-12 col-lg-6  row d-none d-lg-block d-xl-block">
         <img class="img-fluid bm-4" src="/img/android.svg" alt="Quien soy" />
       </div>
     </div>

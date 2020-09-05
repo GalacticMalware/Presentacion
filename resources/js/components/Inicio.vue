@@ -3,7 +3,8 @@
     <div class="row">
       <div class="col-12 col-lg-6">
         <h1 class="display-4 text-primary text-center py-4">Daniel Alejandro Morales Gómez</h1>
-        <p class="lead text-secondary text-center ">Ing. Sistemas Computacionales</p>
+        <p class="lead text-secondary text-center ">Ingeniero en Sistemas Computacionales</p>
+        <p class="lead text-secondary text-center ">Web developer JR. </> Administrador de servidores Linux </><br /> Java developer JR.</p> 
         <router-link
           :to="{ path:'/portafolio'}"
           class="btn btn-lg btn-block btn-outline-primary"
@@ -12,19 +13,13 @@
           <ul>
             
             <li>
-              <a href="https://github.com/GalacticMalware" class="fa fa-github nav-link"></a>
+              <a href="https://github.com/GalacticMalware" target="_bank" class="fa fa-github nav-link"></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/daniel-alejandro-morales-gomez-11aab4191" class="fa fa-linkedin-square nav-link"></a>
+              <a href="https://www.linkedin.com/in/daniel-alejandro-morales-gomez-11aab4191" target="_bank" class="fa fa-linkedin-square nav-link"></a>
             </li>
             <li>
-              <router-link :to="{path:'/'}" class="fa fa-instagram nav-link"></router-link>
-            </li>
-            <li>
-              <router-link :to="{path:'/'}" class="fa fa-facebook-square nav-link"></router-link>
-            </li>
-            <li>
-              <router-link :to="{path:'/'}" class="fa fa-envelope-o nav-link"></router-link>
+              <a href="mailto: daniel_mg_97@hotmail.com" tag="_bank" class="fa fa-envelope-o nav-link"></a>
             </li>
             
           </ul>

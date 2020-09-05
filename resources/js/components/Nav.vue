@@ -16,6 +16,7 @@
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/acerca'}">¿Quién soy?</router-link></li>
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/experiencias'}">Experiencias</router-link></li>
                 <li class="nav-item"><router-link class="nav-link" :to="{ path:'/portafolio'}">Portafolio</router-link></li>
+                <li class="nav-item"><router-link class="nav-link" :to="{ path:'/educacion'}">Educación y certificaciones</router-link></li>
             </ul>
         </div>
     </div>

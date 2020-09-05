@@ -6,6 +6,8 @@ import Acerca from "./components/Complementos/Acerca";
 import Inicio from "./components/Inicio"
 import Experiencias from './components/Complementos/Experiencias'
 import Portafolio from './components/Complementos/Portafolio/Portafolio'
+import Educacion from './components/Complementos/Educacion/Educacion'
+import galeriaprueba from './components/galeriaprueba'
 
 Vue.use(Router)
 
@@ -14,6 +16,16 @@ export default new Router({
         {
             path: "*",
             redirect: "/"
+        },
+        {
+            path: '/educacion',
+            name: 'educacion',
+            component:Educacion
+        },
+        {
+            path: '/galeriaprueba',
+            name: 'galeriaprueba',
+            component:galeriaprueba
         },
         {
             path: '/portafolio',

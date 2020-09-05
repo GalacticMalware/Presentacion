@@ -18,22 +18,22 @@
         </p>
         <ul class="b">
             <li class="lead text-sencondary ">
-                Prevencion de ataques Wireless.
+                Prevención de ataques Wireless.
             </li>
             <li class="lead text-sencondary ">
-                Prevencion de ataques DDOS / DOS.
+                Prevención de ataques DDOS / DOS.
             </li>
             <li class="lead text-sencondary ">
-                Reconfiguracion de puertos.
+                Reconfiguración de puertos.
             </li>
             <li class="lead text-sencondary ">
                 Identificación de IDS/IPS.
             </li>
             <li class="lead text-sencondary ">
-                Deteccion de intrusos.
+                Detección de intrusos.
             </li>
             <li class="lead text-sencondary ">
-                Forense informatico.
+                Forense informático.
             </li>
             <li class="lead text-sencondary ">
                 Políticas de Firewall.
@@ -79,7 +79,7 @@
         </div>
 
       </div>
-      <div class="col-12 col-lg-6  row">
+      <div class="col-12 col-lg-6  row d-none d-lg-block d-xl-block">
         <img class="img-fluid bm-4" src="/img/hack.svg" alt="Quien soy" />
       </div>
     </div>
