@@ -8,7 +8,7 @@
       </div>
       <div class="col-6 col-lg-4 py-2" style="margin-bottom:auto;">
           <a href="#certificado3">
-        <img class="img-fluid bm-4" src="/img/certificadoGoogle.png" alt="certificado1" />
+        <img class="img-fluid bm-4 zoom" src="/img/certificadoGoogle.png" alt="certificado1" />
         </a>
       </div>
       <div class="modal" id="certificado3">

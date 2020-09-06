@@ -98,6 +98,16 @@
   line-height: 25px;
 }
 
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

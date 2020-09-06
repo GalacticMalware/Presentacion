@@ -3,9 +3,9 @@
 
 <head>
 <STYLE>A {text-decoration: none;} </STYLE>
-    <title>PORTAFOLIO</title>
+    <title>Soy Daniel Alejandro</title>
     <meta charset="UTF-8">
-
+    <link rel="shortcut icon" href="/img/code.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">

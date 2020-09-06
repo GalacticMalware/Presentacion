@@ -1957,6 +1957,105 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue?vue&type=script&lang=js& ***!
@@ -1966,6 +2065,120 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2057,6 +2270,8 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Certificacos_Web__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Certificacos/Web */ "./resources/js/components/Complementos/Educacion/Certificacos/Web.vue");
 /* harmony import */ var _Certificacos_Aplicaciones__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Certificacos/Aplicaciones */ "./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue");
+/* harmony import */ var _Certificacos_Administrador__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Certificacos/Administrador */ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue");
+/* harmony import */ var _Certificacos_Hackin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Certificacos/Hackin */ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue");
 //
 //
 //
@@ -2097,47 +2312,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     webcertificado: _Certificacos_Web__WEBPACK_IMPORTED_MODULE_0__["default"],
-    appcertificado: _Certificacos_Aplicaciones__WEBPACK_IMPORTED_MODULE_1__["default"]
+    appcertificado: _Certificacos_Aplicaciones__WEBPACK_IMPORTED_MODULE_1__["default"],
+    admincertificado: _Certificacos_Administrador__WEBPACK_IMPORTED_MODULE_2__["default"],
+    hackincertificado: _Certificacos_Hackin__WEBPACK_IMPORTED_MODULE_3__["default"]
   }
 });
 
@@ -38743,6 +38927,303 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922&":
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922& ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row justify-content-center py-4" }, [
+      _c("div", { staticClass: "col-12 col-lg-12 py-4" }, [
+        _c("h1", { staticClass: "display-4 text-primary text-center" }, [
+          _vm._v("Administrador de servidores LINUX y redes")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead text-sencondary text-center" }, [
+          _vm._v("Cursos en línea con PLATZI y CISCO ACADEMY presenciales.")
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado4" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: { src: "/img/Redes/certificado1.png", alt: "certificado1" }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado5" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: { src: "/img/Redes/certificado2.png", alt: "certificado2" }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado6" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: { src: "/img/Redes/certificado3.png", alt: "certificado1" }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado7" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Redes/certificado4.jpeg",
+                alt: "certificado2"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado8" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Redes/certificado5.jpeg",
+                alt: "certificado2"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado4" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado7" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado5" } }, [
+            _c("img", { attrs: { src: "/img/Redes/certificado1.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado5" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado5" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado4" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado6" } }, [
+            _c("img", { attrs: { src: "/img/Redes/certificado2.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado6" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado6" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado5" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado7" } }, [
+            _c("img", { attrs: { src: "/img/Redes/certificado3.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado7" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado7" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado6" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado8" } }, [
+            _c("img", { attrs: { src: "/img/Redes/certificado4.jpeg" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado8" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado8" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado7" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado4" } }, [
+            _c("img", { attrs: { src: "/img/Redes/certificado5.jpeg" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado4" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue?vue&type=template&id=7dc7678a&":
 /*!***************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue?vue&type=template&id=7dc7678a& ***!
@@ -38785,7 +39266,7 @@ var staticRenderFns = [
         [
           _c("a", { attrs: { href: "#certificado3" } }, [
             _c("img", {
-              staticClass: "img-fluid bm-4",
+              staticClass: "img-fluid bm-4 zoom",
               attrs: { src: "/img/certificadoGoogle.png", alt: "certificado1" }
             })
           ])
@@ -38799,6 +39280,365 @@ var staticRenderFns = [
           _c("a", { attrs: { href: "#certificado3" } }, [
             _c("img", { attrs: { src: "img/certificadoGoogle.png" } })
           ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78&":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78& ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row justify-content-center py-4" }, [
+      _c("div", { staticClass: "col-12 col-lg-12 py-4" }, [
+        _c("h1", { staticClass: "display-4 text-primary text-center" }, [
+          _vm._v("Hacking Ético")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead text-sencondary text-center" }, [
+          _vm._v("Cursos en línea con PLATZI y Netacad (CISCO).")
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado9" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado1.png",
+                alt: "certificado1"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado10" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado2.png",
+                alt: "certificado2"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado11" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado3.png",
+                alt: "certificado3"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado12" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado4.png",
+                alt: "Certificado4"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado13" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado5.png",
+                alt: "Certificado4"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificado14" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Hacking/certificado6.png",
+                alt: "Certificado4"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado9" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado14" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado10" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado1.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado10" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado10" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado9" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado11" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado2.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado11" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado11" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado10" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado12" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado3.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado12" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado12" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado11" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado13" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado4.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado13" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado13" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado12" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado14" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado5.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado14" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado14" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado13" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado9" } }, [
+            _c("img", { attrs: { src: "/img/Hacking/certificado6.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado9" }
+            },
+            [_vm._v(">")]
+          )
         ]),
         _vm._v(" "),
         _c(
@@ -38858,7 +39698,7 @@ var staticRenderFns = [
         [
           _c("a", { attrs: { href: "#certificado1" } }, [
             _c("img", {
-              staticClass: "img-fluid bm-4",
+              staticClass: "img-fluid bm-4 zoom",
               attrs: { src: "/img/Web/certificado8.png", alt: "certificado1" }
             })
           ])
@@ -38874,7 +39714,7 @@ var staticRenderFns = [
         [
           _c("a", { attrs: { href: "#certificado2" } }, [
             _c("img", {
-              staticClass: "img-fluid bm-4",
+              staticClass: "img-fluid bm-4 zoom",
               attrs: { src: "/img/Web/certificado9.png", alt: "certificado2" }
             })
           ])
@@ -38994,13 +39834,13 @@ var render = function() {
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _vm._m(1),
+      _c("admincertificado"),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
-      _vm._m(2),
+      _c("hackincertificado"),
       _vm._v(" "),
       _c("br"),
       _vm._v(" "),
@@ -39034,184 +39874,28 @@ var staticRenderFns = [
           staticStyle: { "margin-bottom": "auto" }
         },
         [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/perfil2.jpeg", alt: "Quien soy" }
-          })
+          _c("a", { attrs: { href: "#uni" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: { src: "/img/perfil2.jpeg", alt: "Quien soy" }
+            })
+          ])
         ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row justify-content-center py-4" }, [
-      _c("div", { staticClass: "col-12 col-lg-12 py-4" }, [
-        _c("h1", { staticClass: "display-4 text-primary text-center" }, [
-          _vm._v("Administrador de servidores LINUX y redes")
+      ),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "uni" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c("a", [_c("img", { attrs: { src: "img/perfil2.jpeg" } })])
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "lead text-sencondary text-center" }, [
-          _vm._v("Cursos en línea con PLATZI y CISCO ACADEMY presenciales.")
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Redes/certificado1.png", alt: "certificado1" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Redes/certificado2.png", alt: "certificado2" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Redes/certificado3.png", alt: "certificado1" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Redes/certificado2.png", alt: "certificado2" }
-          })
-        ]
-      )
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "row justify-content-center py-4" }, [
-      _c("div", { staticClass: "col-12 col-lg-12 py-4" }, [
-        _c("h1", { staticClass: "display-4 text-primary text-center" }, [
-          _vm._v("Certificados Hacking Ético")
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "lead text-sencondary text-center" }, [
-          _vm._v("Cursos en línea con PLATZI y Netacad (CISCO).")
-        ])
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado1.png", alt: "certificado1" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado2.png", alt: "certificado2" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado3.png", alt: "certificado3" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado5.png", alt: "Certificado4" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado6.png", alt: "Certificado4" }
-          })
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "col-6 col-lg-4 py-2",
-          staticStyle: { "margin-bottom": "auto" }
-        },
-        [
-          _c("img", {
-            staticClass: "img-fluid bm-4",
-            attrs: { src: "/img/Hacking/certificado7.png", alt: "Certificado4" }
-          })
-        ]
-      )
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ])
     ])
   }
 ]
@@ -56403,6 +57087,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue":
+/*!***************************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue ***!
+  \***************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Administrador.vue?vue&type=template&id=9b54a922& */ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922&");
+/* harmony import */ var _Administrador_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Administrador.vue?vue&type=script&lang=js& */ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Administrador_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Administrador_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Administrador.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Administrador_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922&":
+/*!**********************************************************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922& ***!
+  \**********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Administrador.vue?vue&type=template&id=9b54a922& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Administrador.vue?vue&type=template&id=9b54a922&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Administrador_vue_vue_type_template_id_9b54a922___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue":
 /*!**************************************************************************************!*\
   !*** ./resources/js/components/Complementos/Educacion/Certificacos/Aplicaciones.vue ***!
@@ -56467,6 +57220,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Aplicaciones_vue_vue_type_template_id_7dc7678a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Aplicaciones_vue_vue_type_template_id_7dc7678a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hackin.vue?vue&type=template&id=ef066f78& */ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78&");
+/* harmony import */ var _Hackin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Hackin.vue?vue&type=script&lang=js& */ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Hackin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hackin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Hackin.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hackin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78& ***!
+  \***************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./Hackin.vue?vue&type=template&id=ef066f78& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Complementos/Educacion/Certificacos/Hackin.vue?vue&type=template&id=ef066f78&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hackin_vue_vue_type_template_id_ef066f78___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
