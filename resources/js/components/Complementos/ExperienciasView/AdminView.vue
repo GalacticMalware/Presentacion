@@ -5,7 +5,7 @@
 
         <h1 class="display-4 text-primary  ">Administrador de servidores Linux</h1>
         <p class="lead text-secondary  ">
-            Experiencia: 6 meses
+            Experiencia: 1 año  (2018-2019)
         </p>
         <p class="lead text-sencondary ">
             Prácticas escolares y toma de curso con PLATZI en línea (Administrador de servidores Linux).   

@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-<STYLE>A {text-decoration: none;} </STYLE>
     <title>Soy Daniel Alejandro</title>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/img/code.svg">
