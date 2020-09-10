@@ -4,7 +4,7 @@
       <div class="col-12 col-lg-6">
         <h1 class="display-4 text-primary text-center py-4">Daniel Alejandro Morales Gómez</h1>
         <p class="lead text-secondary text-center ">Ingeniero en Sistemas Computacionales</p>
-        <p class="lead text-secondary text-center ">Web developer JR. </> Administrador de servidores Linux </><br /> Java developer JR.</p> 
+        <p class="lead text-secondary text-center ">Web developer. </> Administrador de servidores Linux </><br /> Java developer.</p> 
         <router-link
           :to="{ path:'/portafolio'}"
           class="btn btn-lg btn-block btn-outline-primary"

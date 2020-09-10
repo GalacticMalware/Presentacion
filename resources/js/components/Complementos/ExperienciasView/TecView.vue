@@ -35,13 +35,13 @@
                 Implementacion de una sola pagina con VUEJS.
             </li>
             <li class="lead text-sencondary ">
-                Configuración de generacion de PDF.
+                Configuración de generación de PDF.
             </li>
             <li class="lead text-sencondary ">
                 Servicio de envio de email.
             </li>
             <li class="lead text-sencondary ">
-                Configuración de Web Services.
+                Configuración de Service Worker.
             </li>
             <li class="lead text-sencondary ">
                 Test en el funcionamiento del sistema y contra ataques de XSS.

@@ -6,6 +6,8 @@
 
 @import 'galeria';
 
+@import 'contenedor';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -57,4 +59,14 @@
 
 .social-menu ul li a:hover{
     transform: translate(0,-10px);
+}
+
+.expacion{
+ margin-left: 300px;
+}
+
+@media (max-width: 767px) {
+    .expacion {
+      margin-left: 0;
+    }
 }

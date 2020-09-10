@@ -8,6 +8,7 @@ import Experiencias from './components/Complementos/Experiencias'
 import Portafolio from './components/Complementos/Portafolio/Portafolio'
 import Educacion from './components/Complementos/Educacion/Educacion'
 import galeriaprueba from './components/galeriaprueba'
+import Participaciones from './components/Complementos/Participaciones/Participaciones'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
         {
             path: "*",
             redirect: "/"
+        },
+        {
+            path: '/participaciones',
+            name: 'participaciones',
+            component:Participaciones
         },
         {
             path: '/educacion',
