@@ -10,31 +10,31 @@
   
         <div class="menu-list">
   
-            <ul id="menu-content" class="menu-content collapse out">
+            <ul id="menu-content" class="menu-content collapse out ">
                 <li>
-                  <a href="#">
-                  <i class="fa fa-home fa-lg"></i> Inicio
-                  </a>
+                  <router-link class="nav-link" :to="{ path:'/'}">
+                   Inicio
+                  </router-link>
                 </li>
                 <li>
-                  <a href="#">
+                  <router-link class="nav-link" :to="{ path:'/acerca'}">
                   <!--<i class="fa fa-user-circle fa-lg"></i>-->¿Quién soy?
-                  </a>
+                  </router-link>
                 </li>
                 <li>
-                  <a href="#">
+                  <router-link class="nav-link" :to="{ path:'/experiencias'}">
                   Experiencias
-                  </a>
+                  </router-link>
                 </li>
                 <li>
-                  <a href="#">
+                  <router-link class="nav-link" v-on:click="activar" :to="{ path:'/portafolio'}">
                   Portafolio
-                  </a>
+                  </router-link>
                 </li>
                 <li>
-                  <a href="#">
+                  <router-link class="nav-link"  :to="{ path:'/educacion'}">
                   Educación y certificaciones
-                  </a>
+                  </router-link>
                 </li>
 
 
@@ -44,8 +44,13 @@
 </div>
 </template>
 <script>
-export default {
-    
+import animador from '../../../public/js/animador.js';
+export default {    
+  methods:{
+    activar(mensaje){
+      console.log("holamundo"+mensaje);
+    }
+  }
 }
 </script>
 

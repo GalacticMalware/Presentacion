@@ -3312,6 +3312,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -3420,6 +3427,8 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _public_js_animador_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/js/animador.js */ "./public/js/animador.js");
+/* harmony import */ var _public_js_animador_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_public_js_animador_js__WEBPACK_IMPORTED_MODULE_0__);
 //
 //
 //
@@ -3465,7 +3474,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    activar: function activar(mensaje) {
+      console.log("holamundo" + mensaje);
+    }
+  }
+});
 
 /***/ }),
 
@@ -41548,341 +41564,354 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c(
-        "p",
-        {
-          staticClass: "d-flex justify-content-between",
-          staticStyle: { "margin-top": "30px" }
-        },
-        [
-          _c("span", { staticClass: "mb-0 lead text-secondary" }, [
-            _vm._v("Proyectos de aplicaciones web realizados")
-          ]),
+      _c("div", {}, [
+        _c(
+          "p",
+          {
+            staticClass: "d-flex justify-content-between",
+            staticStyle: { "margin-top": "30px" }
+          },
+          [
+            _c("span", { staticClass: "mb-0 lead text-secondary" }, [
+              _vm._v("Proyectos de aplicaciones web realizados")
+            ]),
+            _vm._v(" "),
+            _c("span", { staticClass: "mb-0 lead text-secondary" }, [
+              _vm._v("Tecnologías")
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("ul", { staticClass: "list-group" }, [
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://sureredaliada.herokuapp.com/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto SURE realizado para el evento Hackaton 2020 POS-COVID."
+                    ),
+                    _c("br"),
+                    _vm._v("Desarrollado en 24 horas.")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Laravel, Php, Html, Css, JavaScript,"),
+                    _c("br"),
+                    _vm._v(" ChartJs, Vue, Vuetify y Service Worker")
+                  ])
+                ]
+              )
+            ]
+          ),
           _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://fodap.ittg.edu.mx/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto residencial de una reingeniería para el Sistema Sistema de Gestión para la "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      " Formación y Actualización Profesional Docente del Instituto Tecnológico de Tuxtla Gutiérrez."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v(
+                      "Laravel, Php, Html, Css, JavaScript, ChartJs, Vue,"
+                    ),
+                    _c("br"),
+                    _vm._v(" Vuetify, Service Worker, MySQL y Mailtrap")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://craftshop.herokuapp.com/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto ComprArte realizado para el evento Hack Chiapas."
+                    ),
+                    _c("br"),
+                    _vm._v("Desarrollado en 24 horas.")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Laravel, Php, Css, Html, JavaScript, Bootstrap")
+                  ])
+                ]
+              )
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", {}, [
+        _c("p", { staticStyle: { "margin-top": "30px" } }, [
           _c("span", { staticClass: "mb-0 lead text-secondary" }, [
-            _vm._v("Tecnologías")
+            _vm._v("Proyectos Web realizados")
           ])
-        ]
-      ),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-group" }, [
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://sureredaliada.herokuapp.com/",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto SURE realizado para el evento Hackaton 2020 POS-COVID."
-                  ),
-                  _c("br"),
-                  _vm._v("Desarrollado en 24 horas.")
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Laravel, Php, Html, Css, JavaScript,"),
-                  _c("br"),
-                  _vm._v(" ChartJs, Vue, Vuetify y Service Worker")
-                ])
-              ]
-            )
-          ]
-        ),
+        ]),
         _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: { href: "https://fodap.ittg.edu.mx/", target: "_blank" }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto residencial de una reingeniería para el Sistema Sistema de Gestión para la "
-                  ),
-                  _c("br"),
-                  _vm._v(
-                    " Formación y Actualización Profesional Docente del Instituto Tecnológico de Tuxtla Gutiérrez."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Laravel, Php, Html, Css, JavaScript, ChartJs, Vue,"),
-                  _c("br"),
-                  _vm._v(" Vuetify, Service Worker, MySQL y Mailtrap")
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://craftshop.herokuapp.com/",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto ComprArte realizado para el evento Hack Chiapas."
-                  ),
-                  _c("br"),
-                  _vm._v("Desarrollado en 24 horas.")
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Laravel, Php, Css, Html, JavaScript, Bootstrap")
-                ])
-              ]
-            )
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticStyle: { "margin-top": "30px" } }, [
-        _c("span", { staticClass: "mb-0 lead text-secondary" }, [
-          _vm._v("Proyectos Web realizados")
+        _c("ul", { staticClass: "list-group" }, [
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href:
+                      "https://github.com/GalacticMalware/ProyectoTorneoFut",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado para administracion de partidos de futbol."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Html, Css, Bootstrap, Django, Python, MongoDB.")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://galacticmalware.github.io/ProyectoICHEJA/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado para ICHEJA para fomentar la educación "
+                    ),
+                    _c("br"),
+                    _vm._v(" en línea con chat y descargar pdf.")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Html, Css, Php, jQuery, Ajax, MySQL")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href:
+                      "https://galacticmalware.github.io/Administracion-de-Laboratorio/index",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado para la administracion de los laboratorio."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Html, Php, Css MySQL")
+                  ])
+                ]
+              )
+            ]
+          )
         ])
       ]),
       _vm._v(" "),
-      _c("ul", { staticClass: "list-group" }, [
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://github.com/GalacticMalware/ProyectoTorneoFut",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado para administracion de partidos de futbol."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Html, Css, Bootstrap, Django, Python, MongoDB.")
-                ])
-              ]
-            )
-          ]
-        ),
+      _c("div", {}, [
+        _c("p", { staticStyle: { "margin-top": "30px" } }, [
+          _c("span", { staticClass: "mb-0 lead text-secondary" }, [
+            _vm._v("Proyectos de Aplicaciones mobiles android")
+          ])
+        ]),
         _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://galacticmalware.github.io/ProyectoICHEJA/",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado para ICHEJA para fomentar la educación "
-                  ),
-                  _c("br"),
-                  _vm._v(" en línea con chat y descargar pdf.")
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Html, Css, Php, jQuery, Ajax, MySQL")
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href:
-                    "https://galacticmalware.github.io/Administracion-de-Laboratorio/index",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado para la administracion de los laboratorio."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Html, Php, Css MySQL")
-                ])
-              ]
-            )
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c("p", { staticStyle: { "margin-top": "30px" } }, [
-        _c("span", { staticClass: "mb-0 lead text-secondary" }, [
-          _vm._v("Proyectos de Aplicaciones mobiles android")
+        _c("ul", { staticClass: "list-group" }, [
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href:
+                      "https://github.com/GalacticMalware/JuegoAsteroidesJava",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v("Proyecto escolar de un videojuego Asteroides.")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Java, SQLite.")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href:
+                      "https://github.com/GalacticMalware/Reconocimientos-de-Objetos",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado para poder analizar objetos con la camara "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Java, OpenCV, C++")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href:
+                      "https://github.com/GalacticMalware/CuestionarioSQLITE",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado para guardar informacion localmente y configuraciones de view."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Java, SQLite")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://github.com/GalacticMalware/EmpleTec",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v(
+                      "Proyecto escolar realizado buscar empleo a recien egresados."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Java, Php , MySQL")
+                  ])
+                ]
+              )
+            ]
+          )
         ])
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-group" }, [
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href:
-                    "https://github.com/GalacticMalware/JuegoAsteroidesJava",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v("Proyecto escolar de un videojuego Asteroides.")
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Java, SQLite.")
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href:
-                    "https://github.com/GalacticMalware/Reconocimientos-de-Objetos",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado para poder analizar objetos con la camara "
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Java, OpenCV, C++")
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://github.com/GalacticMalware/CuestionarioSQLITE",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado para guardar informacion localmente y configuraciones de view."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Java, SQLite")
-                ])
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
-          [
-            _c(
-              "a",
-              {
-                staticClass:
-                  "text-secondary d-flex justify-content-between text-decoration-none",
-                attrs: {
-                  href: "https://github.com/GalacticMalware/EmpleTec",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("span", { staticClass: "font-weight-blod" }, [
-                  _vm._v(
-                    "Proyecto escolar realizado buscar empleo a recien egresados."
-                  )
-                ]),
-                _vm._v(" "),
-                _c("span", { staticClass: "text-black-50" }, [
-                  _vm._v("Java, Php , MySQL")
-                ])
-              ]
-            )
-          ]
-        )
       ]),
       _vm._v(" "),
       _c("p", { staticStyle: { "margin-top": "30px" } }, [
@@ -42246,59 +42275,93 @@ var render = function() {
       attrs: { "data-toggle": "collapse", "data-target": "#menu-content" }
     }),
     _vm._v(" "),
-    _vm._m(0)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "menu-list" }, [
+    _c("div", { staticClass: "menu-list" }, [
       _c(
         "ul",
         {
-          staticClass: "menu-content collapse out",
+          staticClass: "menu-content collapse out ",
           attrs: { id: "menu-content" }
         },
         [
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _c("i", { staticClass: "fa fa-home fa-lg" }),
-              _vm._v(" Inicio\n                  ")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v("¿Quién soy?\n                  ")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v("\n                  Experiencias\n                  ")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v("\n                  Portafolio\n                  ")
-            ])
-          ]),
-          _vm._v(" "),
-          _c("li", [
-            _c("a", { attrs: { href: "#" } }, [
-              _vm._v(
-                "\n                  Educación y certificaciones\n                  "
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                { staticClass: "nav-link", attrs: { to: { path: "/" } } },
+                [_vm._v("\n                   Inicio\n                  ")]
               )
-            ])
-          ])
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                { staticClass: "nav-link", attrs: { to: { path: "/acerca" } } },
+                [_vm._v("¿Quién soy?\n                  ")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "nav-link",
+                  attrs: { to: { path: "/experiencias" } }
+                },
+                [_vm._v("\n                  Experiencias\n                  ")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "nav-link",
+                  attrs: { to: { path: "/portafolio" } },
+                  on: { click: _vm.activar }
+                },
+                [_vm._v("\n                  Portafolio\n                  ")]
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "li",
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "nav-link",
+                  attrs: { to: { path: "/educacion" } }
+                },
+                [
+                  _vm._v(
+                    "\n                  Educación y certificaciones\n                  "
+                  )
+                ]
+              )
+            ],
+            1
+          )
         ]
       )
     ])
-  }
-]
+  ])
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -57530,6 +57593,40 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+
+/***/ "./public/js/animador.js":
+/*!*******************************!*\
+  !*** ./public/js/animador.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var animacionInicio = document.querySelectorAll(".animacion2");
+var animado = document.querySelectorAll(".animacion");
+
+function mostrarScroll() {
+  var scrollTop = document.documentElement.scrollTop;
+
+  for (var i = 0; i < animado.length; i++) {
+    var alturaAnimado = animado[i].offsetTop;
+
+    if (alturaAnimado - 700 < scrollTop) {
+      animado[i].style.opacity = 1;
+      animacionInicio[i].style.opacity = 1;
+    }
+  }
+}
+
+function inicioAnimacion() {
+  for (var i = 0; i < animacionInicio.length; i++) {
+    animacionInicio[i].style.opacity = 1;
+  }
+}
+
+setTimeout(inicioAnimacion, 500);
+window.addEventListener('scroll', mostrarScroll);
 
 /***/ }),
 

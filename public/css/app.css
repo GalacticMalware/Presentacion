@@ -108,10 +108,22 @@
   transform: scale(1.1);
 }
 
+.animacion {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.animacion2 {
+  opacity: 0;
+  transition: all 1s;
+}
+
 .circulo {
   border-radius: 50%;
   height: 210px;
   height: 210px;
+  border: 7px solid #fff;
+  margin-top: 35%;
 }
 
 .nav-side-menu {
@@ -141,12 +153,12 @@
   list-style: none;
   padding: 0px;
   margin: 0px;
-  line-height: 85px;
+  line-height: 50px;
   cursor: pointer;
 }
 
 .nav-side-menu li {
-  padding-left: 0px;
+  text-align: center;
 }
 
 .nav-side-menu li a {
@@ -165,7 +177,7 @@
   transition: all 1s ease;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1150px) {
   .circulo {
     display: none;
   }
@@ -199,7 +211,7 @@
   }*/
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1150px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
@@ -210,7 +222,7 @@ body {
   padding: 0px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1150px) {
   .sub-line ul .sub-press li,
   .sub-line li .sub-press li {
     background-color: #181c20;
@@ -259,7 +271,7 @@ body {
   }
 }
 
-@media (max-width: 767px) and (max-width: 767px) {
+@media (max-width: 1150px) and (max-width: 1150px) {
   .sub-line {
     position: relative;
     width: 100%;
@@ -11297,7 +11309,7 @@ a.text-dark:focus {
   margin-left: 300px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1150px) {
   .expacion {
     margin-left: 0;
   }

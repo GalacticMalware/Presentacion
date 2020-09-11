@@ -16,6 +16,7 @@
         <a class="btn btn-primary" href="#">a</a>
        
     </div>-->
+    <div class="">
     <p style="margin-top:30px;" class="d-flex justify-content-between">
       <span class="mb-0 lead text-secondary">Proyectos de aplicaciones web realizados</span>
       <span class="mb-0 lead text-secondary">Tecnologías</span>
@@ -43,8 +44,10 @@
         </a>
       </li>
     </ul>
+    </div>
 
 
+<div class="">
     <p style="margin-top:30px;">
       <span class="mb-0 lead text-secondary">Proyectos Web realizados</span>
     </p>
@@ -70,7 +73,10 @@
         </a>
       </li>
     </ul>
+</div>
 
+
+<div class="">
     <p style="margin-top:30px;">
       <span class="mb-0 lead text-secondary">Proyectos de Aplicaciones mobiles android</span>
     </p>
@@ -102,6 +108,7 @@
         </a>
       </li>
     </ul>
+</div>
 
 
 

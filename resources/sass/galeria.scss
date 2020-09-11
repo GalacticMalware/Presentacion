@@ -112,3 +112,15 @@
     -webkit-transform: scale(1.1); /* Safari 3-8 */
     transform: scale(1.1); 
   }
+
+  //Animacion
+
+  .animacion{
+      opacity: 0;
+      transition: all 1s;
+  }
+
+  .animacion2{
+    opacity: 0;
+    transition: all 1s;
+  }
