@@ -3319,6 +3319,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -41583,6 +41589,37 @@ var staticRenderFns = [
         ),
         _vm._v(" "),
         _c("ul", { staticClass: "list-group" }, [
+          _c(
+            "li",
+            { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },
+            [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "text-secondary d-flex justify-content-between text-decoration-none",
+                  attrs: {
+                    href: "https://climaxwebserviceapi.herokuapp.com/",
+                    target: "_blank"
+                  }
+                },
+                [
+                  _c("span", { staticClass: "font-weight-blod" }, [
+                    _vm._v("Climax."),
+                    _c("br"),
+                    _vm._v("Proyecto personal.")
+                  ]),
+                  _vm._v(" "),
+                  _c("span", { staticClass: "text-black-50" }, [
+                    _vm._v("Laravel, Php, Html, Css, JavaScript,"),
+                    _c("br"),
+                    _vm._v("Vue, Vuetify, Service Worker")
+                  ])
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
           _c(
             "li",
             { staticClass: "list-group-item borde-0 mb-3 shadow-sm zoom" },

@@ -23,6 +23,12 @@
     </p>
     <ul class="list-group">
       <li class="list-group-item borde-0 mb-3 shadow-sm zoom">
+        <a class="text-secondary d-flex justify-content-between text-decoration-none" href="https://climaxwebserviceapi.herokuapp.com/" target="_blank" >
+          <span class="font-weight-blod">Climax.<br />Proyecto personal.</span>
+          <span class="text-black-50">Laravel, Php, Html, Css, JavaScript,<br />Vue, Vuetify, Service Worker</span>
+        </a>
+      </li>
+      <li class="list-group-item borde-0 mb-3 shadow-sm zoom">
         <a class="text-secondary d-flex justify-content-between text-decoration-none" href="https://sureredaliada.herokuapp.com/" target="_blank" >
           <span class="font-weight-blod">Proyecto SURE realizado para el evento Hackaton 2020 POS-COVID.<br />Desarrollado en 24 horas.</span>
           <span class="text-black-50">Laravel, Php, Html, Css, JavaScript,<br /> ChartJs, Vue, Vuetify y Service Worker</span>
