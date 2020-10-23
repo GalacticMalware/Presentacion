@@ -93,7 +93,7 @@
     width: 35px;
     //position: relative;
     //height: 40px;
-    margin: 50px auto;
+    margin: 3% auto;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
@@ -102,6 +102,18 @@
     border-radius: 50%;
     line-height: 25px;
 }
+
+@media (max-width: 920px) {
+    .cerrar{
+        margin: 6% auto;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .cerrar{
+            margin: -6% auto;
+            }
+        }
 
 .zoom{
     transition: transform .2s;
