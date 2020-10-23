@@ -6,7 +6,7 @@
 <div class="expacion">
 <router-view></router-view>
 </div>
-  <footer class="bg-white text-center text-black-50 py-3">Daniel Alejandro Morales Gómez</footer>
+  <footer class="bg-white text-center text-black-50 py-3 footercenter">Daniel Alejandro Morales Gómez</footer>
 </div>
 </template>
 

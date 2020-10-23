@@ -39084,9 +39084,11 @@ var render = function() {
       _vm._v(" "),
       _c("div", { staticClass: "expacion" }, [_c("router-view")], 1),
       _vm._v(" "),
-      _c("footer", { staticClass: "bg-white text-center text-black-50 py-3" }, [
-        _vm._v("Daniel Alejandro Morales Gómez")
-      ])
+      _c(
+        "footer",
+        { staticClass: "bg-white text-center text-black-50 py-3 footercenter" },
+        [_vm._v("Daniel Alejandro Morales Gómez")]
+      )
     ]
   )
 }

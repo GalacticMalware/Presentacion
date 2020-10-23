@@ -189,7 +189,15 @@
   transition: all 1s ease;
 }
 
+.footercenter {
+  margin-left: 15%;
+}
+
 @media (max-width: 1150px) {
+  .footercenter {
+    margin-left: 0%;
+  }
+
   .circulo {
     display: none;
   }
