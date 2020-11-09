@@ -6,6 +6,11 @@
           class="lead text-sencondary text-center"
         >Cursos en línea con PLATZI y Udemy.</p>
       </div>
+      <div class="col-6 col-lg-4 py-2" style="margin-bottom:auto;">
+        <a href="#certificadoUdemy">
+        <img class="img-fluid bm-4 zoom" src="/img/Web/certificadoUdemy.png" alt="certificadoUdemy" />
+        </a>
+      </div>
       <div class="col-6 col-lg-4 py-2 " style="margin-bottom:auto;">
         <a href="#certificado1">
         <img class="img-fluid bm-4 zoom" src="/img/Web/certificado8.png" alt="certificado1" />
@@ -16,11 +21,21 @@
         <img class="img-fluid bm-4 zoom" src="/img/Web/certificado9.png" alt="certificado2" />
         </a>
       </div>
+      
+       <div class="modal" id="certificadoUdemy">
+           <div  class="prueba"></div>
+          <div class="imagen">
+          <a href="#certificado2" class="text-decoration-none">&#60;</a>
+          <a href="#certificado1"><img src="img/Web/certificadoUdemy.png"></a>
+          <a href="#certificado1" class="text-decoration-none">></a>
+        </div>
+        <a href="#" class="cerrar text-decoration-none">X</a>
+      </div>
 
       <div class="modal" id="certificado1">
            <div  class="prueba"></div>
           <div class="imagen">
-          <a href="#certificado2" class="text-decoration-none">&#60;</a>
+          <a href="#certificadoUdemy" class="text-decoration-none">&#60;</a>
           <a href="#certificado2"><img src="img/Web/certificado8.png"></a>
           <a href="#certificado2" class="text-decoration-none">></a>
         </div>
@@ -31,8 +46,8 @@
            <div  class="prueba"></div>
           <div class="imagen">
           <a href="#certificado1" class="text-decoration-none">&#60;</a>
-          <a href="#certificado1"><img src="img/Web/certificado9.png"></a>
-          <a href="#certificado1" class="text-decoration-none">></a>
+          <a href="#certificadoUdemy"><img src="img/Web/certificado9.png"></a>
+          <a href="#certificadoUdemy" class="text-decoration-none">></a>
         </div>
         <a href="#" class="cerrar text-decoration-none">X</a>
       </div>

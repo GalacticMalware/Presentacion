@@ -2257,6 +2257,21 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -39918,6 +39933,25 @@ var staticRenderFns = [
       _c(
         "div",
         {
+          staticClass: "col-6 col-lg-4 py-2",
+          staticStyle: { "margin-bottom": "auto" }
+        },
+        [
+          _c("a", { attrs: { href: "#certificadoUdemy" } }, [
+            _c("img", {
+              staticClass: "img-fluid bm-4 zoom",
+              attrs: {
+                src: "/img/Web/certificadoUdemy.png",
+                alt: "certificadoUdemy"
+              }
+            })
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
           staticClass: "col-6 col-lg-4 py-2 ",
           staticStyle: { "margin-bottom": "auto" }
         },
@@ -39947,7 +39981,7 @@ var staticRenderFns = [
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "modal", attrs: { id: "certificado1" } }, [
+      _c("div", { staticClass: "modal", attrs: { id: "certificadoUdemy" } }, [
         _c("div", { staticClass: "prueba" }),
         _vm._v(" "),
         _c("div", { staticClass: "imagen" }, [
@@ -39956,6 +39990,40 @@ var staticRenderFns = [
             {
               staticClass: "text-decoration-none",
               attrs: { href: "#certificado2" }
+            },
+            [_vm._v("<")]
+          ),
+          _vm._v(" "),
+          _c("a", { attrs: { href: "#certificado1" } }, [
+            _c("img", { attrs: { src: "img/Web/certificadoUdemy.png" } })
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificado1" }
+            },
+            [_vm._v(">")]
+          )
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          { staticClass: "cerrar text-decoration-none", attrs: { href: "#" } },
+          [_vm._v("X")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "modal", attrs: { id: "certificado1" } }, [
+        _c("div", { staticClass: "prueba" }),
+        _vm._v(" "),
+        _c("div", { staticClass: "imagen" }, [
+          _c(
+            "a",
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#certificadoUdemy" }
             },
             [_vm._v("<")]
           ),
@@ -39994,7 +40062,7 @@ var staticRenderFns = [
             [_vm._v("<")]
           ),
           _vm._v(" "),
-          _c("a", { attrs: { href: "#certificado1" } }, [
+          _c("a", { attrs: { href: "#certificadoUdemy" } }, [
             _c("img", { attrs: { src: "img/Web/certificado9.png" } })
           ]),
           _vm._v(" "),
@@ -40002,7 +40070,7 @@ var staticRenderFns = [
             "a",
             {
               staticClass: "text-decoration-none",
-              attrs: { href: "#certificado1" }
+              attrs: { href: "#certificadoUdemy" }
             },
             [_vm._v(">")]
           )
