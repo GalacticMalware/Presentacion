@@ -50,13 +50,6 @@
         </a>
       </li>
     </ul>
-    </div>
-
-
-<div class="">
-    <p style="margin-top:30px;">
-      <span class="mb-0 lead text-secondary">Proyectos Web realizados</span>
-    </p>
     <ul class="list-group">
       <li class="list-group-item borde-0 mb-3 shadow-sm zoom">
         <a class="text-secondary d-flex justify-content-between text-decoration-none" href="https://github.com/GalacticMalware/ProyectoTorneoFut" target="_blank">
@@ -79,8 +72,7 @@
         </a>
       </li>
     </ul>
-</div>
-
+    </div>
 
 <div class="">
     <p style="margin-top:30px;">

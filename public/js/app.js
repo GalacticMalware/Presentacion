@@ -3332,14 +3332,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -41790,14 +41782,6 @@ var staticRenderFns = [
               )
             ]
           )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", {}, [
-        _c("p", { staticStyle: { "margin-top": "30px" } }, [
-          _c("span", { staticClass: "mb-0 lead text-secondary" }, [
-            _vm._v("Proyectos Web realizados")
-          ])
         ]),
         _vm._v(" "),
         _c("ul", { staticClass: "list-group" }, [
